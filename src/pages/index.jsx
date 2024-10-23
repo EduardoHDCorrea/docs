@@ -16,7 +16,7 @@ import PhHelloBar from '../components/homepage/PhHelloBar';
 export default function Homepage() {
   return (
     <Layout
-      title="Dyte Documentation"
+      title="Documentação Técnica - Sky Sistemas"
       wrapperClassName="homepage flex flex-col"
       noFooter
     >
@@ -24,7 +24,7 @@ export default function Homepage() {
         <link rel="prefetch" href="/assets/css/elements.min.css" />
       </Head>
       <div>
-        <PhHelloBar />
+        {/* <PhHelloBar /> */}
 
         {/* Code for Twilio credits banner */}
 
@@ -48,12 +48,12 @@ export default function Homepage() {
 
       <APIReferenceSection />
 
-      <div className="z-0">
+      {/* <div className="z-0">
         <ResourcesSection />
         <HelpSection className="-mb-48" />
-      </div>
+      </div> */}
 
-      <CommunitySection />
+      {/* <CommunitySection /> */}
 
       <HomeFooter />
     </Layout>

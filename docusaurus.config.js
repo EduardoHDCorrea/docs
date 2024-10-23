@@ -7,15 +7,15 @@ const code_themes = {
 
 /** @type {import('@docusaurus/types').Config} */
 const meta = {
-  title: 'Dyte Docs',
+  title: 'Sky Sistemas - Documentação Técnica',
   tagline:
-    'Explore comprehensive documentation for Dyte, including guides, references, and best practices.',
-  url: 'https://docs.dyte.io',
+    'Documentação técnica não-oficial do Sky Sistemas.',
+  url: 'https://skyinfo.co',
   baseUrl: '/',
   favicon: '/favicon.ico',
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'pt-BR',
+    locales: ['pt-BR'],
   },
 };
 
